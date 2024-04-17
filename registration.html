@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+    BookStop registration
+</title>
+<link rel="stylesheet" href="register.css">
+    <link rel="icon" href=
+"https://cdn-icons-png.flaticon.com/512/2232/2232688.png"
+          type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <form class="form" id="form" action="catalogue.html" method="POST">
+            <h2 class="lable">Registration</h2>
+            <p>
+                <label class="lable" for="username">Username</label>
+                <input class="lable" type="text" id="username" name="username" required placeholder="Enter username">
+            </p>
+            <p>
+                <label class="lable" for="email">Email</label>
+                <input class="lable" type="email" id="email" name="email" required placeholder="Enter email">
+            </p>
+            <p>
+                <label class="lable" for="password">Password</label>
+                <input class="lable" type="password" id="password" name="password" required placeholder="Enter password">
+            </p>
+            <p>
+                <label class="lable" for="password-confirm">Confirm Password</label>
+                <input class="lable" type="password" id="password-confirm" name="password-confirm" required placeholder="Confirm password">
+        
+            </p>
+            <p>
+                <label class="lable" for="phone">Phone Number:</label>
+                     <input class="lable" type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Enter 10-digit phone number"><br>
+        
+            </p>
+            <p>
+                <input class="lable1"type="submit" action="catalogue.html" value="Register" id="submit">
+            </p>
+            <p class="lable" >
+                Already have an account? <a href="login.html" class="login">Login</a>
+            </p>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
