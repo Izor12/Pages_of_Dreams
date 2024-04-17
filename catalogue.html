@@ -38,6 +38,9 @@
    .centred{
         text-align: center;
       }
+    .heading{
+        font-family: candara;
+    }
 
     </style>
 <body>
@@ -50,7 +53,7 @@
       <label class="lable" for="companySelect">Select a Book Series:</label><br>
 <select class="lable" id="companySelect" onchange="displayCapital()">
 <option class="lable" value="HP">Harry Potter</option>
-<option class="lable" value="pj">Percy Jackson</option>
+<option class="lable" value="pj">Dan Brown</option>
 <option class="lable" value="hg">Hunger Games</option>
 </select><br><br>
 
@@ -67,7 +70,7 @@ var selectedCompany = select.options[select.selectedIndex].text;
 // You can replace the capital values with the actual capital for each company
 var capitalMap = {
 "Harry Potter": "1. Harry Potter and the Sorcerer’s Stone (1997)"+"\n"+"2. Harry Potter and the Chamber of Secrets (1998)\n3. Harry Potter and the Prisoner of Azkaban (1999)\n4. Harry Potter and the Goblet of Fire (2000)\n5. Harry Potter and the Order of the Phoenix (2003)\n6. Harry Potter and the Half-Blood Prince (2005)\n7. Harry Potter and the Deathly Hallows (2007)\n8. Harry Potter and the Cursed Child (2016)",
-"Percy Jackson": "1. The Lightning Thief (2005) · 2. The Sea of Monsters (2006) · 3. The Titan's Curse (2007)",
+"Dan Brown": "1. Angels & Demons (2000) · 2. The Da Vinci Code (2003) · 3. The Lost Symbol (2009)",
 "Hunger Games": "1. The Hunger Games · 2. The Hunger Games: Catching Fire · 3. The Hunger Games: Mockingjay · 4. The Ballad of Songbirds and Snakes.",
 };
 
