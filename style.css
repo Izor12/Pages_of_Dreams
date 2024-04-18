@@ -38,6 +38,9 @@
   .column {
     flex: 33.33%;
     padding: 150px;
+    color: white;
+    font-size: 150%;
+    font-family: candara;
   }
 .image{
     border-radius: 20px;
